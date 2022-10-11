@@ -15,9 +15,10 @@ porta = 8729
 s.bind((servidor, porta))
 s.listen(10)
 
+
 def trata_conn(conn, cliente):
     global mutex
-    
+
     conn.close()
 
 
